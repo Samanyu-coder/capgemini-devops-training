@@ -3,11 +3,11 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
-            steps {
-                git branch: 'main', url: 'https://github.com/Samanyu-coder/capgemini-devops-training.git'
-            }
-        }
+        // stage('Checkout') {
+        //     steps {
+        //         git branch: 'main', url: 'https://github.com/Samanyu-coder/capgemini-devops-training.git'
+        //     }
+        // }
 
         stage('Build') {
             steps {
